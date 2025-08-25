@@ -1,5 +1,6 @@
-CREATE TABLE funcionarios (
-    funcionario_id INT PRIMARY KEY,
-    nome VARCHAR(100),
-    email VARCHAR(100) UNIQUE
+CREATE TABLE eventos (
+    evento_id INTEGER PRIMARY KEY,
+    nome VARCHAR(80),
+    data_hora TIMESTAMP,
+    descricao CLOB
 );
